@@ -7,7 +7,7 @@ describe('UsersController (e2e)', () => {
   let app: INestApplication;
 
   beforeEach(async () => {
-    const moduleFixture: TestingModule = await Test.createTestingModule({
+    const moduleFixture: TestingModule = await Test.createTestingMdule({
       imports: [AppModule],
     }).compile();
 
